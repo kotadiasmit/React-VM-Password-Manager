@@ -1,0 +1,103 @@
+.show-password-container {
+  background-color: #5763a5;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+  margin-top: 13px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.heading {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.count {
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 8px;
+  border: 1px solid #c3caea;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.search-img {
+  width: 30px;
+  height: 25px;
+  padding: 5px;
+  border-right: 1.5px solid #b4bad7;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #c3caea;
+  margin-left: auto;
+}
+.search {
+  background-color: #c3caea;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding-left: 5px;
+  width: 170px;
+  height: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  border: none;
+  color: #505760;
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+@media (max-width: 756px) {
+  .search {
+    width: 120px;
+  }
+}
+hr {
+  border: 1px solid #94a3b8;
+  width: 100%;
+}
+.list-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-left: 5px;
+}
+.checkBox-container {
+  align-self: flex-end;
+}
+.check-box {
+  width: 25px;
+  margin-right: 0px;
+  height: 14px;
+}
+.label {
+  text-align: right;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.no-passwords-img {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+.heading-center {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+}
